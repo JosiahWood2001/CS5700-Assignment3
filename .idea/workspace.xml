@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54a0c5b5-1537-4a5e-837d-2b51230576a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CS5700-Assignment3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/composeApp_desktop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/composeResources/drawable/compose-multiplatform.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/App.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/Observer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/Platform.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/Shipment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/ShippingUpdate.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/Subject.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/TrackerView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/TrackerViewHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/TrackingSimulator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/UpdateHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/ObserverPatternTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/ShipmentTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/Shipment_TrackerViewHelper_interaction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/ShippingUpdateTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/SimulationTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/UpdateHandlerTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/settings.gradle.kts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +49,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/ShipmentServer/ShipmentServer">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/ShipmentTrackingSimulator">
       <ProjectState />
     </projectState>
@@ -23,21 +62,36 @@
         <task path="$PROJECT_DIR$/ShipmentTrackingSimulator">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ShipmentServer/ShipmentServer">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ShipmentTrackingSimulator" type="f1a62948:ProjectNode" />
+                <item name="ShipmentServer" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ShipmentTrackingSimulator" type="f1a62948:ProjectNode" />
+                <item name="ShipmentServer" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ShipmentTrackingSimulator" type="f1a62948:ProjectNode" />
+                <item name="ShipmentServer" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="compose desktop" type="c8890929:TasksNode$1" />
               </path>
@@ -47,6 +101,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,9 +127,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build ShipmentServer.executor": "Run",
+    "Gradle.Build ShipmentTrackingSimulator.executor": "Run",
+    "Gradle.Load Gradle Dependencies.executor": "Run",
+    "Gradle.ShipmentServer [clean].executor": "Run",
+    "Gradle.ShipmentServer [run].executor": "Run",
+    "Gradle.ShipmentServer:composeApp [clean].executor": "Run",
+    "Gradle.ShipmentServer:server [clean].executor": "Run",
+    "Gradle.ShipmentServer:shared [clean].executor": "Run",
+    "Gradle.ShipmentTrackingSimulator [build].executor": "Run",
+    "Gradle.ShipmentTrackingSimulator [clean].executor": "Run",
     "Gradle.ShipmentTrackingSimulator [run].executor": "Run",
+    "Gradle.ShipmentTrackingSimulator:composeApp [build].executor": "Run",
+    "Gradle.ShipmentTrackingSimulator:composeApp [clean].executor": "Run",
+    "Gradle.ShipmentTrackingSimulator:composeApp [run].executor": "Run",
+    "Gradle.Shipment_TrackerViewHelper_interaction (1).executor": "Run",
+    "Gradle.Shipment_TrackerViewHelper_interaction.executor": "Run",
+    "Gradle.SimulationTest.executor": "Run",
+    "Gradle.Tests in 'ShipmentTrackingSimulator.composeApp.desktopTest' (1).executor": "Coverage",
+    "Gradle.Tests in 'ShipmentTrackingSimulator.composeApp.desktopTest'.executor": "Coverage",
+    "Gradle.UpdateHandlerTest.executor": "Run",
+    "Gradle.main [desktop].executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "Ktor.ApplicationKt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/User/Desktop/School/SUMMER2025/CS5700/CS5700-Assignment3",
@@ -77,14 +162,38 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.Tests in 'ShipmentTrackingSimulator.composeApp.desktopTest'">
-    <configuration name="ShipmentTrackingSimulator [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ShipmentServer [run]">
+    <configuration name="ShipmentServer [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentTrackingSimulator" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShipmentServer [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -103,33 +212,95 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'ShipmentTrackingSimulator.composeApp.desktopTest'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShipmentServer:composeApp [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentTrackingSimulator" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":composeApp:cleanDesktopTest" />
-            <option value=":composeApp:desktopTest" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
+    </configuration>
+    <configuration name="ShipmentServer:server [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShipmentServer:shared [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApplicationKt" type="KtorApplicationConfigurationType" factoryName="Ktor" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.project.ApplicationKt" />
+      <module name="ShipmentServer.server.main" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="includeProvidedScope" value="false" />
+      <option name="mainClass" value="org.example.project.ApplicationKt" />
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" />
+      <option name="shortenCommandLine" />
+      <option name="vmParameters" />
+      <option name="workingDirectory" value="C:\Users\User\Desktop\School\SUMMER2025\CS5700\CS5700-Assignment3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'ShipmentTrackingSimulator.composeApp.desktopTest'" />
-        <item itemvalue="Gradle.ShipmentTrackingSimulator [run]" />
+        <item itemvalue="Gradle.ShipmentServer [run]" />
+        <item itemvalue="Gradle.ShipmentServer:shared [clean]" />
+        <item itemvalue="Gradle.ShipmentServer:server [clean]" />
+        <item itemvalue="Gradle.ShipmentServer:composeApp [clean]" />
+        <item itemvalue="Gradle.ShipmentServer [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -149,11 +320,22 @@
       <option name="presentableId" value="Default" />
       <updated>1752394933731</updated>
       <workItem from="1752394935566" duration="1037000" />
-      <workItem from="1753192631946" duration="641000" />
+      <workItem from="1753192631946" duration="5196000" />
+      <workItem from="1753308369492" duration="207000" />
+      <workItem from="1753308588573" duration="3322000" />
+      <workItem from="1753384788499" duration="675000" />
+      <workItem from="1753385483496" duration="829000" />
+      <workItem from="1753386336047" duration="2113000" />
+      <workItem from="1753389477315" duration="1621000" />
+      <workItem from="1753391202392" duration="3296000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentTrackingSimulator_composeApp_desktopTest___1_.ic" NAME="Tests in 'ShipmentTrackingSimulator.composeApp.desktopTest' (1) Coverage Results" MODIFIED="1753307425701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentTrackingSimulator_composeApp_desktopTest_.ic" NAME="Tests in 'ShipmentTrackingSimulator.composeApp.desktopTest' Coverage Results" MODIFIED="1753307809519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="shared-jvm">
+    <output-path>$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/build/libs</output-path>
+    <root id="archive" name="shared-jvm.jar">
+      <element id="module-output" name="ShipmentServer.shared.jvmMain" />
+    </root>
+  </artifact>
+</component>

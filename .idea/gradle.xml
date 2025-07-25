@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentTrackingSimulator" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/ShipmentTrackingSimulator" />
-            <option value="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp" />
+            <option value="$PROJECT_DIR$/ShipmentServer/ShipmentServer" />
+            <option value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp" />
+            <option value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server" />
+            <option value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared" />
           </set>
         </option>
       </GradleProjectSettings>

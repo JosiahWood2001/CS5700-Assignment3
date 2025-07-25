@@ -10,9 +10,11 @@ object ShipmentHandler {
         return shipments.find { it.getId() == id }
     }
 
-    fun addShipment(shipment: Shipment) {
-        shipments.add(shipment)
-        findShipment(shipment.getId())
+    fun addShipment(shipment: Shipment?) {
+        if (shipment != null){
+            shipments.add(shipment)
+            findShipment(shipment.getId())
+        }
     }
     fun receiveUpdateRequest(update: String) {
         val lineElements = update.split(",")

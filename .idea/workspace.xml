@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54a0c5b5-1537-4a5e-837d-2b51230576a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/App.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopTest/kotlin/org/example/project/ComposeAppDesktopTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server/src/main/kotlin/org/example/project/Application.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server/src/test/kotlin/org/example/project/ApplicationTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/src/commonMain/kotlin/org/example/project/Constants.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/src/commonMain/kotlin/org/example/project/Greeting.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/src/commonMain/kotlin/org/example/project/Platform.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/src/commonTest/kotlin/org/example/project/SharedCommonTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/src/jvmMain/kotlin/org/example/project/Platform.jvm.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/Shipment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/Shipment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/ShipmentFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/ShipmentFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/ShipmentHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/ShipmentHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/UpdateHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/UpdateHandler.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShipmentUpdateEntry.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentUpdateEntry.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +83,7 @@
       <list>
         <option value="HTML File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -330,7 +318,7 @@
       <workItem from="1753385483496" duration="829000" />
       <workItem from="1753386336047" duration="2113000" />
       <workItem from="1753389477315" duration="1621000" />
-      <workItem from="1753391202392" duration="13307000" />
+      <workItem from="1753391202392" duration="15220000" />
     </task>
     <servers />
   </component>

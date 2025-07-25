@@ -4,6 +4,10 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
+val shipmentTypes: Map<String, ShipmentFactory> = mapOf(
+    "express" to ExpressShipmentFactory, "bulk" to BulkShipmentFactory,
+    "standard" to StandardShipmentFactory, "overnight" to OvernightShipmentFactory,
+)
 //each handler will perform the update immediately, then provide a function for providing status text later
 interface UpdateHandler {
     fun handleUpdate(updateString: List<String>)
@@ -14,10 +18,10 @@ interface UpdateHandler {
 object Created : UpdateHandler {
     const val TYPE: String = "created"
     override fun handleUpdate(updateString: List<String>) {
-        val shipment = Shipment(updateString[1])
-        val update = ShippingUpdate(this, "", "created", updateString[2].toLong())
-        shipment.setStatus("created")
-        shipment.addUpdate(update)
+        val shipment = shipmentTypes[updateString[2]]?.createShipment(updateString[1])
+        val update = ShippingUpdate(this, "", "created", updateString[3].toLong())
+        shipment?.setStatus("created")
+        shipment?.addUpdate(update)
         ShipmentHandler.addShipment(shipment)
     }
 

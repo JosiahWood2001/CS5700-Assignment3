@@ -1,6 +1,10 @@
 package org.example.project
 
-class Shipment(shipmentId: String) : Subject {
+class Shipment(
+    shipmentId: String,
+               shipmentType: String,
+               shipmentConditional: ConditionsBehavior
+) : Subject {
     //all variables are private set, setters are below
     var status: String = ""
         private set
@@ -13,6 +17,9 @@ class Shipment(shipmentId: String) : Subject {
         private set
     var currentLocation: String = "Unknown"
         private set
+    var shipmentType: String = shipmentType
+    private set
+    private val conditions: ConditionsBehavior = shipmentConditional
 
     //this will store a list of the observers that need to be notified
     private val observers: MutableSet<Observer> = mutableSetOf()

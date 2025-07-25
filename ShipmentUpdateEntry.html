@@ -5,7 +5,7 @@
     <title>Shipment Updates</title>
 </head>
 <body>
-    <form action="#" method="GET">
+    <form action="" method="GET">
         <label for="shipment_update">Shipment Update: </label>
         <input type="text" id="shipment_update" name="update"><br>
         <input type="submit" value="Update Shipment">
@@ -14,7 +14,7 @@
         document.querySelector('form').addEventListener('submit', async function(event) {
             event.preventDefault();
             const input = document.getElementById('shipment_update');
-            await fetch('http://localhost:8080/update', {
+            fetch('http://localhost:8080/update', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'text/plain'

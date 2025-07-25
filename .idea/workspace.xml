@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a0c5b5-1537-4a5e-837d-2b51230576a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CS5700-Assignment3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/composeApp_desktop.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/composeResources/drawable/compose-multiplatform.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/App.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/Observer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/Platform.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/Shipment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/ShippingUpdate.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/Subject.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/TrackerView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/TrackerViewHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/TrackingSimulator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/UpdateHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopMain/kotlin/org/example/project/main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/ObserverPatternTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/ShipmentTests.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/Shipment_TrackerViewHelper_interaction.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/ShippingUpdateTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/SimulationTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/src/desktopTest/kotlin/org/example/project/UpdateHandlerTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/composeApp/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradle/libs.versions.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentTrackingSimulator/settings.gradle.kts" beforeDir="false" />
-    </list>
+    <list default="true" id="54a0c5b5-1537-4a5e-837d-2b51230576a1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -327,7 +289,7 @@
       <workItem from="1753385483496" duration="829000" />
       <workItem from="1753386336047" duration="2113000" />
       <workItem from="1753389477315" duration="1621000" />
-      <workItem from="1753391202392" duration="3296000" />
+      <workItem from="1753391202392" duration="4127000" />
     </task>
     <servers />
   </component>

@@ -48,3 +48,20 @@ Unit Tests (35 points)
 Executable unit test cases should give reasonable assurances that the system is working correctly.
 Executable unit test cases should have high coverage in terms of code path.
 You do not need to write unit tests for your user interface but you should test the user interface thoroughly by using it yourself (we call this ad hoc testing).
+
+In this assignment, you will be extending your Shipment Tracker
+
+Shipment Tracker
+
+Change your system to be a tracking server rather than a tracking simulator.
+Your server will need an endpoint (or endpoints) that a client can hit to create/update a shipment
+You should build a simple client application (can be a Jetpack Compose application or a simple web application) that makes requests to your tracking server (this can be simple, mine is a text box where you paste one of those strings from the simulation file and make a request to the server with that text)
+You must maintain the existing functionality of the tracker application (a user of the tracking server should still be able to type in a shipment ID and observe it for updates)
+You should fix any issues with your existing system and improve upon them by using new design patterns that we have talked about
+Extend the system to 4 types of shipments: StandardShipment, ExpressShipment, OvernightShipment, and BulkShipment
+An express shipment cannot have an expected delivery date of more than 3 days after the shipment was created
+An overnight shipment must have an expected delivery date of the day after it was created.
+A BulkShipment should not have an expected delivery date sooner than 3 days after it was created.
+StandardShipment has no special conditions
+If an update occurs that violates one of these rules, you should still apply the update, but change the shipment state to indicate that something abnormal has happened. If a user is tracking one of these shipments then the UI should indicate to the user that the shipment had something unexpected happen and indicate what happened to the user (for example you might display some text saying: "An overnight shipment was updated to include a delivery date later than 24 hours after it was created.") They should also behave appropriately with the existing update types. (For example, if an overnight shipment is delayed, then it is expected that the delivery date will be after 24 hours, so there is no reason to display a message to the user about that. Simply changing the status to delayed is fine.
+Look for opportunities to refactor your system using the Factory and Singleton patterns.

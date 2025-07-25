@@ -19,7 +19,7 @@ class Shipment(
     private set
     var currentLocation: String = "Unknown"
         private set
-    var shipmentType: String = shipmentType
+    var type: String = shipmentType
     private set
     private val conditions: ConditionsBehavior = shipmentConditional
 
@@ -87,5 +87,8 @@ class Shipment(
 
     fun checkUpdateConformance() {
         conditions.checkUpdateConditions(this)
+    }
+    fun getConditions():ConditionsBehavior {
+        return conditions
     }
 }

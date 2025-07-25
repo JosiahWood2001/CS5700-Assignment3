@@ -10,8 +10,10 @@ interface ConditionsBehavior {
 object ExpressConditions : ConditionsBehavior {
     override fun checkUpdateConditions(shipment: Shipment){
         shipment.expectedDeliveryDateTimestamp?.minus(shipment.createdTimeStamp)?.let {
-            shipment.setStatus("!Something went wrong!")
-            shipment.addNote("An Express Shipment was updated to include a delivery date later than 3 days after it was created.")
+            if (it > THREE_DAYS_MS) {
+                shipment.setStatus("!Something went wrong!")
+                shipment.addNote("An Express Shipment was updated to include a delivery date later than 3 days after it was created.")
+            }
         }
     }
 }
@@ -19,8 +21,10 @@ object ExpressConditions : ConditionsBehavior {
 object OvernightConditions : ConditionsBehavior {
     override fun checkUpdateConditions(shipment: Shipment){
         shipment.expectedDeliveryDateTimestamp?.minus(shipment.createdTimeStamp)?.let {
-            shipment.setStatus("!Something went wrong!")
-            shipment.addNote("An Overnight Shipment was updated to include a delivery date later than 1 day after it was created.")
+            if (it > ONE_DAY_MS){
+                shipment.setStatus("!Something went wrong!")
+                shipment.addNote("An Overnight Shipment was updated to include a delivery date later than 1 day after it was created.")
+            }
         }
     }
 }
@@ -28,8 +32,11 @@ object OvernightConditions : ConditionsBehavior {
 object BulkConditions : ConditionsBehavior {
     override fun checkUpdateConditions(shipment: Shipment){
         shipment.expectedDeliveryDateTimestamp?.minus(shipment.createdTimeStamp)?.let {
-            shipment.setStatus("!Something went wrong!")
-            shipment.addNote("A Bulk Shipment was updated to include a delivery date sooner than 3 days after it was created.")
+            println(it)
+            if (it < THREE_DAYS_MS){
+                shipment.setStatus("!Something went wrong!")
+                shipment.addNote("A Bulk Shipment was updated to include a delivery date sooner than 3 days after it was created.")
+            }
         }
     }
 }

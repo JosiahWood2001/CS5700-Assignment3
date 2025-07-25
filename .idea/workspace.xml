@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54a0c5b5-1537-4a5e-837d-2b51230576a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopTest/kotlin/org/example/project/ObserverPatternTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopTest/kotlin/org/example/project/ShipmentTests.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopTest/kotlin/org/example/project/Shipment_TrackerViewHelper_interaction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopTest/kotlin/org/example/project/ShippingUpdateTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopTest/kotlin/org/example/project/UpdateHandlerTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/App.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/ConditionsBehavior.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/ConditionsBehavior.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/Shipment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/Shipment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/TrackerViewHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/TrackerViewHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/UpdateHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/UpdateHandler.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +82,7 @@
         <option value="HTML File" />
         <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -118,6 +111,9 @@
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Build ShipmentServer.executor": "Run",
     "Gradle.Build ShipmentTrackingSimulator.executor": "Run",
+    "Gradle.DeliveryConditionsTest (1).executor": "Run",
+    "Gradle.DeliveryConditionsTest.Express shipment within 3 days does not raise warning.executor": "Run",
+    "Gradle.DeliveryConditionsTest.executor": "Run",
     "Gradle.Load Gradle Dependencies.executor": "Run",
     "Gradle.ShipmentServer [clean].executor": "Run",
     "Gradle.ShipmentServer [run].executor": "Run",
@@ -177,7 +173,55 @@
       <recent name="org.example.project" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'ShipmentServer.composeApp.desktopTest'">
+  <component name="RunManager" selected="Gradle.ShipmentServer:composeApp [run]">
+    <configuration name="DeliveryConditionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":composeApp:cleanDesktopTest" />
+            <option value=":composeApp:desktopTest" />
+            <option value="--tests &quot;org.example.project.DeliveryConditionsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeliveryConditionsTest.Express shipment within 3 days does not raise warning" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":composeApp:cleanDesktopTest" />
+            <option value=":composeApp:desktopTest" />
+            <option value="--tests &quot;org.example.project.DeliveryConditionsTest.Express shipment within 3 days does not raise warning&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ShipmentServer:composeApp [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -201,52 +245,6 @@
       <method v="2" />
     </configuration>
     <configuration name="Tests in 'ShipmentServer.composeApp.desktopTest' (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":composeApp:cleanDesktopTest" />
-            <option value=":composeApp:desktopTest" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'ShipmentServer.composeApp.desktopTest' (3)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":composeApp:cleanDesktopTest" />
-            <option value=":composeApp:desktopTest" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'ShipmentServer.composeApp.desktopTest' (4)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer" />
@@ -310,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'ShipmentServer.composeApp.desktopTest'" />
-        <item itemvalue="Gradle.Tests in 'ShipmentServer.composeApp.desktopTest' (4)" />
         <item itemvalue="Gradle.ShipmentServer:composeApp [run]" />
-        <item itemvalue="Gradle.Tests in 'ShipmentServer.composeApp.desktopTest' (3)" />
+        <item itemvalue="Gradle.Tests in 'ShipmentServer.composeApp.desktopTest'" />
         <item itemvalue="Gradle.Tests in 'ShipmentServer.composeApp.desktopTest' (2)" />
+        <item itemvalue="Gradle.DeliveryConditionsTest (1)" />
+        <item itemvalue="Gradle.DeliveryConditionsTest.Express shipment within 3 days does not raise warning" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +339,7 @@
       <workItem from="1753385483496" duration="829000" />
       <workItem from="1753386336047" duration="2113000" />
       <workItem from="1753389477315" duration="1621000" />
-      <workItem from="1753391202392" duration="19678000" />
+      <workItem from="1753391202392" duration="20940000" />
     </task>
     <servers />
   </component>
@@ -349,11 +347,11 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentServer_composeApp_desktopTest___1_.ic" NAME="Tests in 'ShipmentServer.composeApp.desktopTest' (1) Coverage Results" MODIFIED="1753475183561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentServer_composeApp_desktopTest___1_.ic" NAME="Tests in 'ShipmentServer.composeApp.desktopTest' (1) Coverage Results" MODIFIED="1753479735055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentServer_composeApp_desktopTest___3_.ic" NAME="Tests in 'ShipmentServer.composeApp.desktopTest' (3) Coverage Results" MODIFIED="1753475432649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentServer_composeApp_desktopTest___4_.ic" NAME="Tests in 'ShipmentServer.composeApp.desktopTest' (4) Coverage Results" MODIFIED="1753478967362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentServer_composeApp_desktopTest___2_.ic" NAME="Tests in 'ShipmentServer.composeApp.desktopTest' (2) Coverage Results" MODIFIED="1753475340942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentServer_composeApp_desktopTest_.ic" NAME="Tests in 'ShipmentServer.composeApp.desktopTest' Coverage Results" MODIFIED="1753475017982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentServer_composeApp_desktopTest___2_.ic" NAME="Tests in 'ShipmentServer.composeApp.desktopTest' (2) Coverage Results" MODIFIED="1753480004012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentServer_composeApp_desktopTest_.ic" NAME="Tests in 'ShipmentServer.composeApp.desktopTest' Coverage Results" MODIFIED="1753480243929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentTrackingSimulator_composeApp_desktopTest___1_.ic" NAME="Tests in 'ShipmentTrackingSimulator.composeApp.desktopTest' (1) Coverage Results" MODIFIED="1753307425701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/CS5700_Assignment3$Tests_in__ShipmentTrackingSimulator_composeApp_desktopTest_.ic" NAME="Tests in 'ShipmentTrackingSimulator.composeApp.desktopTest' Coverage Results" MODIFIED="1753307809519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>

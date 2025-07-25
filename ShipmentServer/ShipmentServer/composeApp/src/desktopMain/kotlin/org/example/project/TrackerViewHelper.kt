@@ -46,7 +46,7 @@ class TrackerViewHelper : Observer {
 
         shipmentNotes.clear()
         shipmentNotes.addAll(shipment?.notes ?: emptyList())
-        shipmentType = shipment?.shipmentType ?: "Shipment"
+        shipmentType = shipment?.type ?: "Shipment"
 
     }
 

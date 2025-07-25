@@ -13,13 +13,13 @@
     <script>
         document.querySelector('form').addEventListener('submit', async function(event) {
             event.preventDefault();
-            const input = document.getElementById('shipment_update').value;
-            const response = await fetch('http://localhost:8080/update', {
+            const input = document.getElementById('shipment_update');
+            await fetch('http://localhost:8080/update', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'text/plain'
                 },
-                body: input
+                body: input.value
             });
             input.value="";
         });

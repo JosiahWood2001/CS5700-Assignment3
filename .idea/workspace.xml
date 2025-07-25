@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a0c5b5-1537-4a5e-837d-2b51230576a1" name="Changes" comment="" />
+    <list default="true" id="54a0c5b5-1537-4a5e-837d-2b51230576a1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/App.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp/src/desktopTest/kotlin/org/example/project/ComposeAppDesktopTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server/src/main/kotlin/org/example/project/Application.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server/src/test/kotlin/org/example/project/ApplicationTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/src/commonMain/kotlin/org/example/project/Constants.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/src/commonMain/kotlin/org/example/project/Greeting.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/src/commonMain/kotlin/org/example/project/Platform.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/src/commonTest/kotlin/org/example/project/SharedCommonTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared/src/jvmMain/kotlin/org/example/project/Platform.jvm.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipmentUpdateEntry.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShipmentUpdateEntry.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,11 +69,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ShipmentServer" type="f1a62948:ProjectNode" />
+                <item name="composeApp" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ShipmentServer" type="f1a62948:ProjectNode" />
+                <item name="composeApp" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ShipmentServer" type="f1a62948:ProjectNode" />
+                <item name="composeApp" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="compose desktop" type="c8890929:TasksNode$1" />
               </path>
@@ -68,6 +95,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -96,6 +124,7 @@
     "Gradle.ShipmentServer [clean].executor": "Run",
     "Gradle.ShipmentServer [run].executor": "Run",
     "Gradle.ShipmentServer:composeApp [clean].executor": "Run",
+    "Gradle.ShipmentServer:composeApp [run].executor": "Run",
     "Gradle.ShipmentServer:server [clean].executor": "Run",
     "Gradle.ShipmentServer:shared [clean].executor": "Run",
     "Gradle.ShipmentTrackingSimulator [build].executor": "Run",
@@ -118,7 +147,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/Desktop/School/SUMMER2025/CS5700/CS5700-Assignment3",
+    "last_opened_file_path": "C:/Users/User/Desktop/School/SUMMER2025/CS5700/CS5700-Assignment3/ShipmentServer/ShipmentServer/composeApp/src/desktopMain/kotlin/org/example/project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -129,7 +158,19 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.ShipmentServer [run]">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\School\SUMMER2025\CS5700\CS5700-Assignment3\ShipmentServer\ShipmentServer\composeApp\src\desktopMain\kotlin\org\example\project" />
+      <recent name="C:\Users\User\Desktop\School\SUMMER2025\CS5700\CS5700-Assignment3\ShipmentServer\ShipmentServer\shared\src\commonMain\kotlin\org\example\project" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.example.project" />
+    </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="org.example.project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.ShipmentServer:composeApp [run]">
     <configuration name="ShipmentServer [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,10 +237,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ShipmentServer:server [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShipmentServer:composeApp [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -207,7 +248,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="run" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -258,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ShipmentServer [run]" />
-        <item itemvalue="Gradle.ShipmentServer:shared [clean]" />
-        <item itemvalue="Gradle.ShipmentServer:server [clean]" />
+        <item itemvalue="Gradle.ShipmentServer:composeApp [run]" />
         <item itemvalue="Gradle.ShipmentServer:composeApp [clean]" />
+        <item itemvalue="Gradle.ShipmentServer [run]" />
         <item itemvalue="Gradle.ShipmentServer [clean]" />
+        <item itemvalue="Gradle.ShipmentServer:shared [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +330,7 @@
       <workItem from="1753385483496" duration="829000" />
       <workItem from="1753386336047" duration="2113000" />
       <workItem from="1753389477315" duration="1621000" />
-      <workItem from="1753391202392" duration="4127000" />
+      <workItem from="1753391202392" duration="13307000" />
     </task>
     <servers />
   </component>

@@ -10,8 +10,6 @@
           <set>
             <option value="$PROJECT_DIR$/ShipmentServer/ShipmentServer" />
             <option value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/composeApp" />
-            <option value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/server" />
-            <option value="$PROJECT_DIR$/ShipmentServer/ShipmentServer/shared" />
           </set>
         </option>
       </GradleProjectSettings>

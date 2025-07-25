@@ -22,7 +22,10 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtimeCompose)
-            implementation(projects.shared)
+            implementation("androidx.compose.runtime:runtime:1.6.0")
+            implementation(libs.logback)
+            implementation(libs.ktor.serverCore)
+            implementation(libs.ktor.serverNetty)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

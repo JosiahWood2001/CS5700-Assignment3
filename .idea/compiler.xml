@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="ShipmentServer.server.main" target="17" />
+      <module name="ShipmentServer.server.test" target="17" />
+      <module name="ShipmentServer.shared.jvmMain" target="17" />
+      <module name="ShipmentServer.shared.jvmTest" target="17" />
       <module name="ShipmentTrackingSimulator.composeApp" target="17" />
       <module name="ShipmentTrackingSimulator.composeApp.desktopDev" target="17" />
       <module name="ShipmentTrackingSimulator.composeApp.desktopMain" target="17" />

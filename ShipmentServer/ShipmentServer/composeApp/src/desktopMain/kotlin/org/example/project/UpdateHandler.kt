@@ -40,7 +40,7 @@ object Delayed : UpdateHandler {
         val update = ShippingUpdate(this, shipment?.status ?: "", "delayed", updateString[2].toLong(), updateString[3])
         shipment?.setStatus("delayed")
         shipment?.addUpdate(update)
-        shipment?.setExpectedDeliveryDateTimestamp(update.getOther().toLong())
+        shipment?.setExpectedDeliveryDateTimestamp(update.getOther().toLong(),false)
     }
 
     override fun reportUpdate(update: ShippingUpdate): String? {

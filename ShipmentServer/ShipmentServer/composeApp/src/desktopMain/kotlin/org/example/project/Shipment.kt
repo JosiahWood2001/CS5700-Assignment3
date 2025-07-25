@@ -64,9 +64,11 @@ class Shipment(
         notifyObserver()
     }
 
-    fun setExpectedDeliveryDateTimestamp(newExpectedDeliveryDateTimestamp: Long) {
+    fun setExpectedDeliveryDateTimestamp(newExpectedDeliveryDateTimestamp: Long, assertConformance: Boolean = true) {
         expectedDeliveryDateTimestamp = newExpectedDeliveryDateTimestamp
-        checkUpdateConformance()
+        if (assertConformance){
+            checkUpdateConformance()
+        }
         notifyObserver()
     }
 

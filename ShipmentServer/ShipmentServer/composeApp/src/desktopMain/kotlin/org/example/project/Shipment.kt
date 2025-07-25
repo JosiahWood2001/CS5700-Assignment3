@@ -2,8 +2,8 @@ package org.example.project
 
 class Shipment(
     shipmentId: String,
-               shipmentType: String,
-               shipmentConditional: ConditionsBehavior
+                shipmentType: String,
+                shipmentConditional: ConditionsBehavior,
 ) : Subject {
     //all variables are private set, setters are below
     var status: String = ""
@@ -15,6 +15,8 @@ class Shipment(
         private set
     var expectedDeliveryDateTimestamp: Long? = null
         private set
+    var createdTimeStamp: Long = 0
+    private set
     var currentLocation: String = "Unknown"
         private set
     var shipmentType: String = shipmentType
@@ -37,6 +39,9 @@ class Shipment(
         for (observer in observers) {
             observer.update()
         }
+    }
+    fun setCreatedTimeStamp(createdTimeStamp: Long) {
+        this.createdTimeStamp = createdTimeStamp
     }
 
     fun setStatus(newStatus: String) {
@@ -61,6 +66,7 @@ class Shipment(
 
     fun setExpectedDeliveryDateTimestamp(newExpectedDeliveryDateTimestamp: Long) {
         expectedDeliveryDateTimestamp = newExpectedDeliveryDateTimestamp
+        checkUpdateConformance()
         notifyObserver()
     }
 
@@ -77,5 +83,9 @@ class Shipment(
     fun addUpdate(update: ShippingUpdate) {
         updateHistory.add(update)
         notifyObserver()
+    }
+
+    fun checkUpdateConformance() {
+        conditions.checkUpdateConditions(this)
     }
 }

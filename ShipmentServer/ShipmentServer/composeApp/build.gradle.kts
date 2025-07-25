@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.composeHotReload)
+    kotlin("plugin.serialization") version "2.0.21"
 }
 
 kotlin {
@@ -12,6 +13,7 @@ kotlin {
     
     sourceSets {
         val desktopMain by getting
+        val desktopTest by getting
         
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -26,6 +28,7 @@ kotlin {
             implementation(libs.logback)
             implementation(libs.ktor.serverCore)
             implementation(libs.ktor.serverNetty)
+            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -33,6 +36,11 @@ kotlin {
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutinesSwing)
+        }
+        desktopTest.dependencies {
+            implementation(kotlin("test"))
+            implementation("org.jetbrains.kotlin:kotlin-test-junit:2.0.21")
+            implementation("org.junit.jupiter:junit-jupiter:5.10.0")
         }
     }
 }

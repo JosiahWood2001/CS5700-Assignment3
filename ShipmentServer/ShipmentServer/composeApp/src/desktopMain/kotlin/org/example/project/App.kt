@@ -84,7 +84,7 @@ fun App() {
                                 modifier = Modifier.fillMaxWidth()
                             ) {
                                 Text(
-                                    text = "Tracking Shipment ${tracker.shipmentId}",
+                                    text = "Tracking ${tracker.shipmentType} ${tracker.shipmentId}",
                                     style = MaterialTheme.typography.titleMedium,
                                     fontWeight = FontWeight.Bold
                                 )

@@ -22,10 +22,11 @@ class TrackerViewHelper : Observer {
         private set
     var shipmentNotes = mutableStateListOf<String>()
         private set
+    var shipmentType by mutableStateOf("Shipment")
+     private set
     //required interface function
     override fun update() {
         val shipment = ShipmentHandler.findShipment(shipmentId)
-        println(shipment?.getId())
         shipmentStatus = shipment?.status ?: "Unknown"
         shipmentLocation = shipment?.currentLocation ?: "Unknown"
         if (shipment?.expectedDeliveryDateTimestamp != null) {
@@ -45,6 +46,7 @@ class TrackerViewHelper : Observer {
 
         shipmentNotes.clear()
         shipmentNotes.addAll(shipment?.notes ?: emptyList())
+        shipmentType = shipment?.shipmentType ?: "Shipment"
 
     }
 

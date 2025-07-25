@@ -22,6 +22,7 @@ object Created : UpdateHandler {
         val update = ShippingUpdate(this, "", "created", updateString[3].toLong())
         shipment?.setStatus("created")
         shipment?.addUpdate(update)
+        shipment?.setCreatedTimeStamp(updateString[3].toLong())
         ShipmentHandler.addShipment(shipment)
     }
 
